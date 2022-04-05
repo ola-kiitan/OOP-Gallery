@@ -210,7 +210,6 @@ Modal
 .prev-btn {
   position: absolute;
   top: 10rem;
-  right: -2.5rem;
   transform: translateY(-50%);
   background: transparent;
   font-size: 2rem;
@@ -220,6 +219,9 @@ Modal
 }
 .prev-btn {
   left: -2.5rem;
+}
+.next-btn {
+  right: -2.5rem;
 }
 @media screen and (min-width: 768px) {
   .prev-btn {
